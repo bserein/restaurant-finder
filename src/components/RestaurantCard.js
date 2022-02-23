@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from "@react-navigation/native";
 import { RestaurantContext } from "../../App";
+import styles from "../../styles";
 
 export default function RestaurantCard({restaurant}){
     const {setSelectedRestaurant} = useContext(RestaurantContext)
@@ -19,22 +20,5 @@ export default function RestaurantCard({restaurant}){
         </TouchableOpacity>
     )   
 }
-
-const styles = StyleSheet.create({
-    card: {
-        width: 410,
-        backgroundColor: 'grey',
-        marginBottom: 16,
-        marginLeft: 2
-    },
-    cardImage: {
-        width: 410,
-        height: 210,
-    },
-    cardTitle: {
-        fontSize: 28,
-        fontWeight: '600',
-        padding: 4,
-
-    }
-});
+ 
+//moved the styles that were here to another file so its more organized use a separation of concerns
