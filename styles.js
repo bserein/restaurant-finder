@@ -28,5 +28,11 @@ export default StyleSheet.create({
         marginVertical: 10,
         fontWeight: "500",
         borderRadius: 8,
+    },
+    AddNewRestuarant: {
+        backgroundColor: "blue",
+        marginHorizontal: 40,
+        fontWeight: "500",
+        borderRadius: 8,
     }
 })

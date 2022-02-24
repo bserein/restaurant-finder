@@ -14,6 +14,7 @@ function RestaurantListScreen(){
             .catch(err => alert(err))
     }, [])
 
+
     const navigation = useNavigation();
     const AddNewHandle = () => {
         navigation.navigate("Add New Restaurant")
