@@ -34,5 +34,20 @@ export default StyleSheet.create({
         marginHorizontal: 40,
         fontWeight: "500",
         borderRadius: 8,
+    },
+    addressText: {
+        fontSize: 25,
+        marginTop: 5,
+        marginBottom: 10
+    },
+    ratingsText: {
+        fontSize: 15
+    },
+    nameText: {
+        fontSize: 30,
+        textAlign: 'center', 
+        fontWeight: "600",
+        width: "100%",
+        backgroundColor: 'aqua',
     }
 })
